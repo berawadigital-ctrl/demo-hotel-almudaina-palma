@@ -1,0 +1,68 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-almudaina-palma",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T16:52:00+01:00",
+ "updated_at": "2026-10-29T17:05:00+01:00",
+ "business": {
+  "name": "Hotel Almudaina",
+  "legal_name": "Hotelera Balear, S.A.",
+  "registry_ids": [
+   "CIF A07008279"
+  ],
+  "url": "https://www.hotelalmudaina.com/",
+  "domain": "hotelalmudaina.com",
+  "municipality": "Palma",
+  "province": "Illes Balears",
+  "address": "Avenida Jaime III, 9 · 07012 Palma",
+  "phones": [
+   "+34 971 727 340"
+  ],
+  "emails": [
+   "info@hotelalmudaina.com"
+  ],
+  "sector": "hotel de cuatro estrellas en el centro de Palma (Mallorca)"
+ },
+ "rating": {
+  "value": 4.4,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Almudaina/@39.571837,2.645342,17z/data=!4m9!3m8!1s0x1297925b13da8ba7:0x2f3483637669c498!5m2!4m1!1i2!8m2!3d39.571837!4d2.645342!16s%2Fg%2F11_q71k19",
+  "date": "2026-10-29T10:38:41+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://www.hotelalmudaina.com/booking-process",
+   "ca": "https://www.hotelalmudaina.com/booking-process",
+   "en": "https://www.hotelalmudaina.com/en/booking-process",
+   "fr": "https://www.hotelalmudaina.com/fr/booking-process"
+  },
+  "note": "Las reservas van al motor de reservas del propio hotel (hotelalmudaina.com/booking-process, plataforma Hotetec del propio dominio; versiones /en/ y /fr/); la demo no construye ningun motor."
+ },
+ "audit_original": {
+  "url": "https://www.hotelalmudaina.com/",
+  "date": "2026-10-29T10:40:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}

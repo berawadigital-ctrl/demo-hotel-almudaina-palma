@@ -1,0 +1,64 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hotelalmudaina.com/",
+ "read_at": "2026-10-29T16:52:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hotelalmudaina.com/",
+   "sha256": "4584a16a5d843d6c2fbda545a1198c1867ae8b54fdfa93fa13b7264cd254957b",
+   "chars": 2538
+  },
+  {
+   "url": "https://www.hotelalmudaina.com/contacto",
+   "sha256": "31e0e92f6b6f20241d20c1ebbace40af211c798ac8529031fc328e6e6e231c06",
+   "chars": 2121
+  },
+  {
+   "url": "https://www.hotelalmudaina.com/faqs",
+   "sha256": "e7cc1b81e1ba4f58d1fa59c0937dd364ef019bffc0d90dc0e109cab76c529520",
+   "chars": 2582
+  },
+  {
+   "url": "https://www.hotelalmudaina.com/habitaciones",
+   "sha256": "1762232014b50709f2bfe4c3342cbc6a6a6134e90d25976d2cdd791708d8793e",
+   "chars": 3046
+  },
+  {
+   "url": "https://www.hotelalmudaina.com/proteccion-datos",
+   "sha256": "79b6b6f7fd5c6dffe53dcd73e8bafd9ec7ed9752dfdb1caef2e9ea6ebc6154b9",
+   "chars": 56669
+  },
+  {
+   "url": "https://www.hotelalmudaina.com/servicios",
+   "sha256": "aa72c03f59a897bb4db156b1caa34344c2d395408930a19111a237110f3cf546",
+   "chars": 2599
+  },
+  {
+   "url": "https://www.hotelalmudaina.com/sky-area",
+   "sha256": "9e4d975d5e7629bb640b07718ce1df8ca2cd0321c08457964c699a8c224e3aa9",
+   "chars": 3348
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hotelalmudaina.com",
+  "https://www.hotelalmudaina.com/de/",
+  "https://www.hotelalmudaina.com/en/",
+  "https://www.hotelalmudaina.com/en/contacto",
+  "https://www.hotelalmudaina.com/en/faqs",
+  "https://www.hotelalmudaina.com/en/galeria",
+  "https://www.hotelalmudaina.com/en/habitaciones",
+  "https://www.hotelalmudaina.com/en/mejor-precio",
+  "https://www.hotelalmudaina.com/en/opiniones/opiniones",
+  "https://www.hotelalmudaina.com/en/que-hacer-mallorca",
+  "https://www.hotelalmudaina.com/en/servicios",
+  "https://www.hotelalmudaina.com/en/sky-area",
+  "https://www.hotelalmudaina.com/fr/",
+  "https://www.hotelalmudaina.com/fr/habitaciones",
+  "https://www.hotelalmudaina.com/fr/servicios",
+  "https://www.hotelalmudaina.com/galeria",
+  "https://www.hotelalmudaina.com/mejor-precio",
+  "https://www.hotelalmudaina.com/opiniones/opiniones",
+  "https://www.hotelalmudaina.com/que-hacer-mallorca"
+ ]
+}

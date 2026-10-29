@@ -1,0 +1,450 @@
+{
+ "url": "http://127.0.0.1:42197/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tiene?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene 77 habitaciones: individual económica, individual, doble (cama de matrimonio o dos camas, según disponibilidad), superior con terraza,"
+    },
+    {
+     "q": "¿Tienen habitación con terraza?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí, las habitaciones superiores son para dos personas y tienen terraza, con vistas de la ciudad desde la Catedral hasta el mar Mediterráneo."
+    },
+    {
+     "q": "¿Tienen habitación para cuatro?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí: hay triples para hasta tres personas y cuádruples para cuatro. También tienen cunas, con disponibilidad limitada: avisa con antelación."
+    },
+    {
+     "q": "¿Dónde está?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Está en la Avenida Jaime III, 9, 07012 Palma de Mallorca, en pleno centro de la ciudad."
+    },
+    {
+     "q": "¿Cómo llego desde el aeropuerto?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Desde el aeropuerto, en taxi tardas poco más de un cuarto de hora. En autobús, la línea 1 sale aproximadamente cada 15 minutos: baja en la p"
+    },
+    {
+     "q": "¿A qué hora es la entrada?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "La entrada es a partir de las 15:00 y la salida antes de las 12:00."
+    },
+    {
+     "q": "¿Tienen desayuno?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí, desayuno buffet con productos locales: de lunes a viernes de 7:30 a 10:30 y sábados, domingos y festivos de 8:00 a 11:00. Bajo petición,"
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "No, el hotel no admite mascotas en sus habitaciones."
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sí, el wifi es gratis."
+    },
+    {
+     "q": "¿Qué es el Sky Area?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "El Sky Area está en la octava planta: bar salón, terraza al aire libre y restaurante con menú semanal y vistas a la Catedral. Abre de 12:00 "
+    },
+    {
+     "q": "¿Hay aparcamiento?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "El hotel no tiene parking propio, pero dispone de plazas en un parking cercano con coste extra; conviene reservarlas con antelación."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), llamar al +34 971 727 340 o escribir a info@hotelalmudaina.com. Este asistente no "
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Según su aviso legal, el titular de la web es Hotelera Balear S.A., CIF A-07008279."
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 971 727 340 · info@hotelalmudaina.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), llamar al +34 971 727 340 o escribir a info@hotelalmudaina.com. Este asistente no "
+    },
+    {
+     "q": "¿Tienen spa?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 971 727 340 · info@hotelalmudaina.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tiene?",
+    "¿Qué es el Sky Area?",
+    "¿Cómo llego desde el aeropuerto?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "intro_k",
+    "send",
+    "room0_n",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quines habitacions té?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Té 77 habitacions: individual econòmica, individual, doble (llit de matrimoni o dos llits, segons disponibilitat), superior amb terrassa, tr"
+    },
+    {
+     "q": "Teniu habitació amb terrassa?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí, les habitacions superiors són per a dues persones i tenen terrassa, amb vistes de la ciutat des de la Catedral fins al mar Mediterrani."
+    },
+    {
+     "q": "Teniu habitació per a quatre?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí: hi ha triples per a fins a tres persones i quàdruples per a quatre. També tenen bressols, amb disponibilitat limitada: avisa amb antelac"
+    },
+    {
+     "q": "On és?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "És a l'Avinguda Jaume III, 9, 07012 Palma, al bell mig de la ciutat."
+    },
+    {
+     "q": "Com hi arribo des de l'aeroport?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Des de l'aeroport, en taxi tardes poc més d'un quart d'hora. En autobús, la línia 1 surt aproximadament cada 15 minuts: baixa a la parada Pa"
+    },
+    {
+     "q": "A quina hora és l'entrada?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "L'entrada és a partir de les 15:00 i la sortida abans de les 12:00."
+    },
+    {
+     "q": "Teniu esmorzar?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí, esmorzar bufet amb productes locals: de dilluns a divendres de 7:30 a 10:30 i dissabtes, diumenges i festius de 8:00 a 11:00. Sota petic"
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "No, l'hotel no admet mascotes a les habitacions."
+    },
+    {
+     "q": "Hi ha wifi?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sí, el wifi és gratuït."
+    },
+    {
+     "q": "Què és el Sky Area?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "El Sky Area és a la vuitena planta: bar saló, terrassa a l'aire lliure i restaurant amb menú setmanal i vistes a la Catedral. Obre de 12:00 "
+    },
+    {
+     "q": "Hi ha aparcament?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "L'hotel no té pàrquing propi, però disposa de places en un pàrquing proper amb cost extra; convé reservar-les amb antelació."
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Pots reservar al seu motor de reserves (botó Reservar), trucar al +34 971 727 340 o escriure a info@hotelalmudaina.com. Aquest assistent no "
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Segons el seu avís legal, el titular del web és Hotelera Balear S.A., CIF A-07008279."
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 971 727 340 · info@hotelalmudaina.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Pots reservar al seu motor de reserves (botó Reservar), trucar al +34 971 727 340 o escriure a info@hotelalmudaina.com. Aquest assistent no "
+    },
+    {
+     "q": "Teniu spa?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 971 727 340 · info@hotelalmudaina.com."
+    }
+   ],
+   "chips": [
+    "Quines habitacions té?",
+    "Què és el Sky Area?",
+    "Com hi arribo des de l'aeroport?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "title",
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "What rooms does it have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has 77 rooms: economy single, single, double (double bed or two beds, subject to availability), superior with terrace, triple and quadrup"
+    },
+    {
+     "q": "Do you have a room with a terrace?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes, the superior rooms are for two people and have a terrace, with city views from the Cathedral to the Mediterranean Sea."
+    },
+    {
+     "q": "Do you have a room for four?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Yes: there are triples for up to three people and quadruples for four. Cots are also available in limited numbers: let them know in advance."
+    },
+    {
+     "q": "Where is it?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "It is at Avenida Jaime III, 9, 07012 Palma de Mallorca, right in the city centre."
+    },
+    {
+     "q": "How do I get there from the airport?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "From the airport, a taxi takes just over a quarter of an hour. By bus, line 1 leaves about every 15 minutes: get off at the Paseo Mallorca 1"
+    },
+    {
+     "q": "What time is check-in?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Check-in is from 15:00 and check-out before 12:00."
+    },
+    {
+     "q": "Do you serve breakfast?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Yes, buffet breakfast with local products: Monday to Friday 7:30–10:30 and Saturdays, Sundays and holidays 8:00–11:00. Lactose-free milk and"
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "No, the hotel does not allow pets in its rooms."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Yes, wifi is free."
+    },
+    {
+     "q": "What is the Sky Area?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "The Sky Area is on the eighth floor: lounge bar, open-air terrace and restaurant with a weekly menu and Cathedral views. Open 12:00–24:00; t"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "The hotel has no parking of its own, but has spaces in a nearby car park at extra cost; book them in advance."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "You can book on its booking engine (Book button), call +34 971 727 340 or email info@hotelalmudaina.com. This assistant does not confirm ava"
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "According to its legal notice, the website owner is Hotelera Balear S.A., CIF A-07008279."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 971 727 340 · info@hotelalmudaina.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "You can book on its booking engine (Book button), call +34 971 727 340 or email info@hotelalmudaina.com. This assistant does not confirm ava"
+    },
+    {
+     "q": "Is there a spa?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 971 727 340 · info@hotelalmudaina.com."
+    }
+   ],
+   "chips": [
+    "What rooms does it have?",
+    "What is the Sky Area?",
+    "How do I get there from the airport?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "title",
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il compte 77 chambres : individuelle économique, individuelle, double (lit double ou deux lits, selon disponibilité), supérieure avec terras"
+    },
+    {
+     "q": "Avez-vous une chambre avec terrasse ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui, les chambres supérieures sont pour deux personnes et ont une terrasse, avec vue sur la ville de la cathédrale jusqu'à la Méditerranée."
+    },
+    {
+     "q": "Avez-vous une chambre pour quatre ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Oui : il y a des triples jusqu'à trois personnes et des quadruples pour quatre. Des lits bébé sont aussi disponibles en nombre limité : prév"
+    },
+    {
+     "q": "Où est-il ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Il se trouve Avenida Jaime III, 9, 07012 Palma de Majorque, en plein centre-ville."
+    },
+    {
+     "q": "Comment venir depuis l'aéroport ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Depuis l'aéroport, le taxi met un peu plus d'un quart d'heure. En bus, la ligne 1 part environ toutes les 15 minutes : descendez à l'arrêt P"
+    },
+    {
+     "q": "À quelle heure est l'arrivée ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "L'arrivée se fait à partir de 15h00 et le départ avant 12h00."
+    },
+    {
+     "q": "Servez-vous le petit-déjeuner ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Oui, petit-déjeuner buffet avec produits locaux : du lundi au vendredi de 7h30 à 10h30, et samedis, dimanches et jours fériés de 8h00 à 11h0"
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Non, l'hôtel n'accepte pas les animaux dans ses chambres."
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Oui, le wifi est gratuit."
+    },
+    {
+     "q": "Qu'est-ce que le Sky Area ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Le Sky Area est au huitième étage : bar salon, terrasse en plein air et restaurant avec menu de la semaine et vue sur la cathédrale. Ouvert "
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "L'hôtel n'a pas de parking propre, mais dispose de places dans un parking proche avec supplément ; mieux vaut les réserver à l'avance."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur son moteur de réservation (bouton Réserver), appeler le +34 971 727 340 ou écrire à info@hotelalmudaina.com. Cet as"
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Selon ses mentions légales, le titulaire du site est Hotelera Balear S.A., CIF A-07008279."
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 971 727 340 · info@hotelalmudaina.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur son moteur de réservation (bouton Réserver), appeler le +34 971 727 340 ou écrire à info@hotelalmudaina.com. Cet as"
+    },
+    {
+     "q": "Y a-t-il un spa ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 971 727 340 · info@hotelalmudaina.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres a-t-il ?",
+    "Qu'est-ce que le Sky Area ?",
+    "Comment venir depuis l'aéroport ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
